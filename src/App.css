@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url(/src/css-pattern-3.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
