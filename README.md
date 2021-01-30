@@ -39,8 +39,8 @@
 
 ## Sources
 
--<a href='https://jsonplaceholder.typicode.com'>JSON Placehold</a>
--<a href='https://reactjs.org/'>React JS Docs</a>
+-<a href='https://jsonplaceholder.typicode.com'>JSON Placehold</a><br />
+-<a href='https://reactjs.org/'>React JS Docs</a><br />
 -<a href='https://dev.to/sachinsmahajan/use-axios-with-react-3hka'>Dev.to</a>
 
 
