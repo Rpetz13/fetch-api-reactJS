@@ -37,3 +37,10 @@
     _At this point you can run `npm start` to see the example app at `http://localhost:3000`._
 5.  Now you are ready to explore.
 
+## Sources
+
+-<a href='https://jsonplaceholder.typicode.com'>JSON Placehold</a>
+-<a href='https://reactjs.org/'>React JS Docs</a>
+-<a href='https://dev.to/sachinsmahajan/use-axios-with-react-3hka'>Dev.to</a>
+
+
