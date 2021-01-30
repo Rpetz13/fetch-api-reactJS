@@ -31,7 +31,7 @@
 ## Quick start
 
 1.  Make sure that you have Node JS and npm
-2.  Clone this repo using `git clone --depth=1 https://github.com/Rpetz13/fetch-api-reactJS.git <YOUR_PROJECT_NAME>`
+2.  Clone this repo using `git clone https://github.com/rpetzandrian/fetch-api-reactJS.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
 4.  Run `npm start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
