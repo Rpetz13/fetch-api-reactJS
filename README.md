@@ -2,8 +2,8 @@
 
 <br />
 
-<div align="center"><strong>Fetch data API with React</strong></div>
-<div align="center"How to get data form API with library Axios from React</div>
+<div align="center"><strong>Fetch data API with React</strong></div><br/>
+<div align="center">How to get data form API with library Axios from React</div>
 
 <br />
 
