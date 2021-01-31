@@ -8,7 +8,7 @@
 <br />
 
 ## Features
-- Just get data fron API 
+- Just get data from API 
 
 > Note: This will continue to be added to other features
 
