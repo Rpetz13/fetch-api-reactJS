@@ -7,6 +7,10 @@
 
 <br />
 
+## React JS
+<div>React JS is a javascript library for building User Interface. React created by Facebook. Now, react 
+is one of the most widely used libraries.</div>
+
 ## Features
 - Just get data from API 
 
@@ -36,11 +40,12 @@
 ## Quick start
 
 1.  Make sure that you have Node JS and npm
-2.  Clone this repo using `git clone https://github.com/rpetzandrian/fetch-api-reactJS.git <YOUR_PROJECT_NAME>`
-3.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
-4.  Run `npm start` to run the program.<br />
+2.  Open your CLI
+3.  Clone this repo using `git clone https://github.com/rpetzandrian/fetch-api-reactJS.git <YOUR_PROJECT_NAME>`
+4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
+5.  Run `npm start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
-5.  Now you are ready to explore.
+6.  Now you are ready to explore.
 
 ## Sources
 
