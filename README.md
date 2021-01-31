@@ -7,6 +7,11 @@
 
 <br />
 
+## Features
+- Just get data fron API 
+
+> Note: This will continue to be added to other features
+
 ## Tools
 
 <dl>
@@ -39,7 +44,7 @@
 
 ## Sources
 
--<a href='https://jsonplaceholder.typicode.com'>JSON Placehold</a><br />
+-<a href='https://jsonplaceholder.typicode.com'>JSON Placeholder</a><br />
 -<a href='https://reactjs.org/'>React JS Docs</a><br />
 -<a href='https://dev.to/sachinsmahajan/use-axios-with-react-3hka'>Dev.to</a>
 
