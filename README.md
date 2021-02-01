@@ -48,7 +48,7 @@ This project's features is unfinished .
 
 1.  Make sure that you have Node JS and npm or yarn
 2.  Open your terminal
-3.  Clone this repo using `git clone https://github.com/rpetzandrian/fetch-api-reactJS.git <YOUR_PROJECT_NAME>`
+3.  Clone this repo using `git clone https://github.com/rpetzandrian/crud-api-reactjs.git <YOUR_PROJECT_NAME>`
 4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
 5.  Run `npm start`  or `yarn start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
@@ -59,3 +59,5 @@ This project's features is unfinished .
 -<a href='https://jsonplaceholder.typicode.com'>JSON Placeholder</a><br />
 -<a href='https://reactjs.org/'>React JS Docs</a><br />
 -<a href='https://dev.to/sachinsmahajan/use-axios-with-react-3hka'>Dev.to</a>
+
+
