@@ -7,8 +7,7 @@
 <br />
 
 ## About This Project
-<div>  
-This project is a project about CRUD processing of data from an API using the AXIOS libraries in React JS.  </div>
+<div>This is a simple React JS CRUD app. I use Axios to do the CRUD process. This project is still basic implementation of React JS. So,this project is suitable for beginners.</div>
 
 ## Features
 This project's features is unfinished .
@@ -59,5 +58,8 @@ This project's features is unfinished .
 -<a href='https://jsonplaceholder.typicode.com'>JSON Placeholder</a><br />
 -<a href='https://reactjs.org/'>React JS Docs</a><br />
 -<a href='https://dev.to/sachinsmahajan/use-axios-with-react-3hka'>Dev.to</a>
+
+## Author
+- GIthub : <a href='https://github.com/rpetzandrian'>Rico Andrian Frimansyah</a>
 
 
