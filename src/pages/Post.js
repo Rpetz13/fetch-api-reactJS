@@ -11,9 +11,13 @@ class Post extends Component {
     };
   }
 
-  // Membuat function untuk fetch data posts
+  // Membuat function untuk fetch data posts~
   getPostData = () => {
+<<<<<<< HEAD
     let url = "http://localhost:3000/posts";
+=======
+    let url = "http://localhost:3001/posts";
+>>>>>>> 3c807eb4782b43c0812e421185d1f7261bbd085e
     axios
       .get(url)
       .then((res) => {
