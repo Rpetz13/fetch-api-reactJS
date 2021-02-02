@@ -11,9 +11,9 @@ class Post extends Component {
     };
   }
 
-  // Membuat function untuk fetch data posts
+  // Membuat function untuk fetch data posts~
   getPostData = () => {
-    let url = "https://jsonplaceholder.typicode.com/posts";
+    let url = "http://localhost:3001/posts";
     axios
       .get(url)
       .then((res) => {
