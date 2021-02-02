@@ -7,9 +7,19 @@ class Post extends Component {
   constructor() {
     super();
     this.state = {
-      post: [],
+      post: null,
     };
   }
+
+  removeHandler = (data) => {
+    console.log(data);
+    let url = `http://localhost:3001/posts/${data}`;
+    axios.delete(url).then((res) => {
+      if (res.status === 200) {
+        this.getPostData();
+      }
+    });
+  };
 
   // Membuat function untuk fetch data posts~
   getPostData = () => {
@@ -33,13 +43,29 @@ class Post extends Component {
   render() {
     return (
       <>
-        <div className="container text-center mt-4">
-          <h1 className="mb-4 mt-4">Post</h1>
-          <hr />
+        <div className="container mt-4">
+          <div className="d-flex flex-column justify-content-center">
+            <h1 className="text-center my-2">Post</h1>
+            <hr />
+            <button className="btn btn-success text-center my-2">
+              Add Post
+            </button>
+          </div>
           <div className="row">
             <div className="col-12">
-              {/* Mengirim state post ke PostTable */}
-              <PostTable postdata={this.state.post} />
+              <div className="row">
+                {this.state.post !== null &&
+                  this.state.post.map((post) => {
+                    /* Mengirim state post ke PostTable */
+                    return (
+                      <PostTable
+                        key={post.id}
+                        postdata={post}
+                        remove={this.removeHandler}
+                      />
+                    );
+                  })}
+              </div>
             </div>
           </div>
         </div>

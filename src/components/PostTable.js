@@ -2,54 +2,45 @@ import React from "react";
 
 const PostTable = (props) => {
   return (
-    // <table className="table table-bordered table-striped">
-    //   <thead className="thead-dark">
-    //     <tr>
-    //       <th>No</th>
-    //       <th>Title</th>
-    //       <th>Description</th>
-    //     </tr>
-    //   </thead>
-    //   <tbody id="table-users">
-    //     {props.postdata.length !== 0 && props.postdata.map((item,index) =>
-    //       <tr key={index}>
-    //         <td>{item.id}</td>
-    //         <td>{item.title}</td>
-    //         <td>{item.body}</td>
-    //       </tr>
-    //     )}
-    //   </tbody>
-    // </table>
-
     <>
-      {/* Mapping array dari props */}
-      {props.postdata !== 0 &&
-        props.postdata.map((item, index) => {
-          return (
-            <div
-              className="card mx-2 mt-1 mb-4"
-              style={{
-                minHeight: "150px",
-                maxHeight: "300px",
-                border: "1px solid blue",
-              }}
+      <div className="col-sm-6 col-md-4 col-lg-3">
+        <div
+          className="card my-3"
+          style={{ minHeight: "580px", backgroundColor: "#f0f0f0" }}
+        >
+          <img
+            className="card-img-top"
+            src="https://placeimg.com/640/480/nature"
+            alt="dummy"
+          />
+          <div className="card-body px-1">
+            <h5
+              className="card-title"
+              style={{ height: "80px", fontSize: "16px" }}
             >
-              <div className="row">
-                <div
-                  className="col-4 d-flex justify-content-center align-items-center bg-primary"
-                  style={{ minHeight: "150px", maxHeight: "300px" }}
-                >
-                  <p className="card-title text-white">
-                    <strong>{item.title.toUpperCase()}</strong>
-                  </p>
-                </div>
-                <div className="col-8 d-flex align-items-center px-5 py-3">
-                  <p style={{ fontSize: "18px" }}>{item.body}</p>
-                </div>
-              </div>
+              {props.postdata.title.toUpperCase()}
+            </h5>
+            <hr />
+            <p
+              className="card-text"
+              style={{ minHeight: "190px", fontSize: "16px" }}
+            >
+              {props.postdata.body}
+            </p>
+            <div className="float-right px-1">
+              <button className="btn btn-outline-primary mx-1">
+                <i className="far fa-edit"></i>
+              </button>
+              <button
+                onClick={() => props.remove(props.postdata.id)}
+                className="btn btn-outline-danger mx-1"
+              >
+                <i className="far fa-trash-alt"></i>
+              </button>
             </div>
-          );
-        })}
+          </div>
+        </div>
+      </div>
     </>
   );
 };

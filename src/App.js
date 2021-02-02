@@ -6,10 +6,8 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="background" style={{ marginTop: "-30px" }}>
-        {/* Memanggil page Post */}
-        <Post />
-      </div>
+      {/* Memanggil page Post */}
+      <Post />
     </>
   );
 };
