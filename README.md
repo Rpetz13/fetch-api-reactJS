@@ -37,7 +37,7 @@ This project's features is unfinished .
   <dt>Javascript</dt>
   <dd>Programming Language</dd>
   
-  <dt>JSON Placehold</dt>
+  <dt>JSON Placeholder (JSON Server)</dt>
   <dd><a href='https://jsonplaceholder.typicode.com/'>Free fake API for testing and prototyping</a></dd>
  </dl>
  
@@ -49,9 +49,11 @@ This project's features is unfinished .
 2.  Open your terminal
 3.  Clone this repo using `git clone https://github.com/rpetzandrian/crud-api-reactjs.git <YOUR_PROJECT_NAME>`
 4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
-5.  Run `npm start`  or `yarn start` to run the program.<br />
+5.  Install json server using `npm install -g json-server` in your terminal
+6.  Run json server using `json-server --watch db.json --port 3001`
+7.  Run `npm start`  or `yarn start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
-6.  Now you are ready to explore.
+8.  Now you are ready to explore.
 
 ## Sources
 
