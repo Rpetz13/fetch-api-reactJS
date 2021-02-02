@@ -17,7 +17,7 @@ This project's features is unfinished .
  |#| Create	| Non Completed |
  |#| Read | Completed |
  |#| Update | Non Completed |
- |#| Delete | Non Completed |
+ |#| Delete | Completed |
 
 > Note: This will continue to be added to other features
 
