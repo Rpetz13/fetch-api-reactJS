@@ -51,7 +51,7 @@ This project's features is unfinished .
 4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
 5.  Install json server using `npm install -g json-server` in your terminal
 6.  Run json server using `json-server --watch db.json --port 3001`
-7.  Run `npm start`  or `yarn start` to run the program.<br />
+7.  Open other terminal then run `npm start`  or `yarn start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
 8.  Now you are ready to explore.
 
