@@ -16,7 +16,7 @@ This project's features is unfinished .
  |--|----------|-------|
  |#| Create	| Completed |
  |#| Read | Completed |
- |#| Update | Non Completed |
+ |#| Update | Completed |
  |#| Delete | Completed |
 
 > Note: This will continue to be added to other features
@@ -25,37 +25,33 @@ This project's features is unfinished .
 <div><strong>Some of tools that I use in this case, They are : </strong></div>
 
 <dl>
+  <dt>Node JS</dt>
+ 
+  <dt>npm or yarn</dt>
+ 
   <dt>React JS</dt>
-  <dd>To display the data, I use React JS</dd>
   
   <dt>Axios</dt>
-  <dd>A library to fetch data from API</dd>
   
   <dt>Bootstraps</dt>
-  <dd>For styling</dd>
-  
-  <dt>Javascript</dt>
-  <dd>Programming Language</dd>
   
   <dt>JSON Placeholder (JSON Server)</dt>
-  <dd><a href='https://jsonplaceholder.typicode.com/'>Free fake API for testing and prototyping</a></dd>
  </dl>
  
  <br />
  
 ## Quick start
 
-1.  Make sure that you have Node JS and npm or yarn
-2.  Open your terminal
-3.  Clone this repo using `git clone https://github.com/rpetzandrian/crud-api-reactjs.git <YOUR_PROJECT_NAME>`
-4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
-5.  Open code editor `code .`<br />
-6.  Install node_module in your project `npm install` in terminal
-7.  Install json server using `npm install -g json-server` in your terminal
-8.  Run json server using `json-server --watch db.json --port 3001`
-9.  Open other terminal then run `npm start`  or `yarn start` to run the program.<br />
+1.  Open your terminal
+2.  Clone this repo using `git clone https://github.com/rpetzandrian/crud-api-reactjs.git <YOUR_PROJECT_NAME>`
+3.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
+4.  Open code editor `code .`<br />
+5.  Install node_module in your project `npm install` in terminal
+6.  Install json server using `npm install -g json-server` in your terminal
+7.  Run json server using `json-server --watch db.json --port 3001`
+8.  Open other terminal then run `npm start`  or `yarn start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
-10.  Now you are ready to explore.
+9.  Now you are ready to explore.
 
 ## Sources
 
