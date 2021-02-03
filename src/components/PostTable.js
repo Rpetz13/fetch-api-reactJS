@@ -28,7 +28,12 @@ const PostTable = (props) => {
               {props.postdata.body}
             </p>
             <div className="float-right px-1">
-              <button className="btn btn-outline-primary mx-1">
+              <button
+                className="btn btn-outline-primary mx-1"
+                onClick={() => props.update(props.postdata.id)}
+                data-toggle="modal"
+                data-target="#staticBackdrop"
+              >
                 <i className="far fa-edit"></i>
               </button>
               <button
