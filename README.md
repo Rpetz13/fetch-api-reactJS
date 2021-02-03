@@ -14,10 +14,10 @@ This project's features is unfinished .
 
  |#|Features|Status|
  |--|----------|-------|
- |#| Create	| Non Completed |
+ |#| Create	| Completed |
  |#| Read | Completed |
  |#| Update | Non Completed |
- |#| Delete | Non Completed |
+ |#| Delete | Completed |
 
 > Note: This will continue to be added to other features
 
@@ -49,12 +49,13 @@ This project's features is unfinished .
 2.  Open your terminal
 3.  Clone this repo using `git clone https://github.com/rpetzandrian/crud-api-reactjs.git <YOUR_PROJECT_NAME>`
 4.  Move to the appropriate directory `cd <YOUR_PROJECT_NAME>`.<br />
-5.  Install node_module in your project `npm install`
-5.  Install json server using `npm install -g json-server` in your terminal
-6.  Run json server using `json-server --watch db.json --port 3001`
-7.  Open other terminal then run `npm start`  or `yarn start` to run the program.<br />
+5.  Open code editor `code .`<br />
+6.  Install node_module in your project `npm install` in terminal
+7.  Install json server using `npm install -g json-server` in your terminal
+8.  Run json server using `json-server --watch db.json --port 3001`
+9.  Open other terminal then run `npm start`  or `yarn start` to run the program.<br />
     _At this point you can run `http://localhost:3000`._
-8.  Now you are ready to explore.
+10.  Now you are ready to explore.
 
 ## Sources
 
