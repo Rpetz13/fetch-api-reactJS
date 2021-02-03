@@ -16,7 +16,7 @@ class Post extends Component {
     };
   }
 
-  // Membuat function untuk fetch data posts~
+  // Membuat function untuk get data posts~
   getPostData = () => {
     let url = "http://localhost:3001/posts?_sort=id&_order=desc";
     axios
@@ -29,6 +29,7 @@ class Post extends Component {
       .catch((err) => console.log(err));
   };
 
+  // function untuk post data ke api
   postDataToApi = () => {
     let data = {
       id: this.state.id,
@@ -43,6 +44,7 @@ class Post extends Component {
     });
   };
 
+  // function untuk put data ke api
   updateDataToApi = () => {
     let data = {
       id: this.state.id,
@@ -57,6 +59,7 @@ class Post extends Component {
     });
   };
 
+  // function untuk delete data ke api
   removeHandler = (data) => {
     let url = `http://localhost:3001/posts/${data}`;
     axios.delete(url).then((res) => {
@@ -66,6 +69,7 @@ class Post extends Component {
     });
   };
 
+  // function untuk memperbarui state dengan data yang akan diupdate
   updateHandler = (data) => {
     let url = `http://localhost:3001/posts/${data}`;
     axios.get(url).then((res) => {
@@ -80,6 +84,7 @@ class Post extends Component {
     });
   };
 
+  // Merekam setiap perubahan form ke state
   handlerChange = (event) => {
     if (this.state.isUpdate === false) {
       this.setState({
@@ -93,6 +98,7 @@ class Post extends Component {
     }
   };
 
+  // Submit data form
   handlerSubmit = () => {
     if (this.state.isUpdate === false) {
       this.postDataToApi();
@@ -111,6 +117,7 @@ class Post extends Component {
     }
   };
 
+  // Merubah state isUpdate dari true ke false
   isUpdateHandler = () => {
     this.setState({
       id: "",
@@ -127,6 +134,7 @@ class Post extends Component {
 
   // Render component
   render() {
+    // Variable default untuk form
     let defaultValueForm = {
       title: this.state.title,
       body: this.state.body,
