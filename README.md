@@ -14,7 +14,7 @@ This project's features is unfinished .
 
  |#|Features|Status|
  |--|----------|-------|
- |#| Create	| Non Completed |
+ |#| Create	| Completed |
  |#| Read | Completed |
  |#| Update | Non Completed |
  |#| Delete | Completed |
